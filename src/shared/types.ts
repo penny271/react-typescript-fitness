@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-
 // 列挙型
 export enum SelectedPage {
   Home = "home",
