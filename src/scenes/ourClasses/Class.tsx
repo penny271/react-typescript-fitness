@@ -1,11 +1,11 @@
-import React from 'react'
-
 type Props = {
   name: string;
   // ? をつけることで optionalにできる
   description?: string;
   image: string;
 }
+
+// tsrafce
 
 const Class = ({ name, description, image }: Props) => {
   const overlayStyles = `p-5 absolute z-30 flex
